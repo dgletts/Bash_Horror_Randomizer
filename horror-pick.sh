@@ -5,7 +5,7 @@ echo "Would you like me to choose for you?"
 select yn in "Yes" "No"; do
 
 	case $yn in
-		No ) echo "Fuck you" ;;
+		No ) echo "Then why are we here?" ;;
 		Yes ) sh ./random.sh 
 		break
 		;; 
